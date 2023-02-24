@@ -6,7 +6,7 @@ from vendas.sales import SumarioVendas
 from periodo.soma_periodo import RelatorioPeriodo
 
 locale.setlocale(locale.LC_ALL, 'pt_BR.utf8')
-date = datetime(2023, 2, 7)
+date = datetime(2023, 1, 1)
 month = date.month
 end_date = date.replace(day=calendar.monthrange(date.year, month)[1])
 stone_code = 880853854

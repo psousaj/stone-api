@@ -844,3 +844,59 @@ C:\Users\TAX Contabilidade\Desktop\Jos�\stone-api\vendas\files\880853854\2023\02
 24/02/2023 18:11:28 - configs.logging_config - INFO -  -buscando informações de vendas cliente: 880853854
 24/02/2023 18:11:31 - configs.logging_config - INFO -  -Arquivo de extrato baixado com sucesso em:
 /home/uninassau/Área de Trabalho/code/stone-api\connection\files\880853854\2023\02-fevereiro\extrato-7.xml
+24/02/2023 18:22:01 - configs.logging_config - INFO -  -API STONE Inicializada com sucesso
+24/02/2023 18:22:01 - configs.logging_config - INFO -  -https://conciliation.stone.com.br/v1/merchant
+24/02/2023 18:22:01 - configs.logging_config - INFO -  -buscando informações de vendas cliente: 880853854
+24/02/2023 18:22:03 - configs.logging_config - INFO -  -Arquivo de extrato baixado com sucesso em:
+/home/uninassau/Área de Trabalho/code/stone-api\connection\files\880853854\2023\02-fevereiro\extrato-7.xml
+24/02/2023 18:23:04 - configs.logging_config - INFO -  -API STONE Inicializada com sucesso
+24/02/2023 18:23:04 - configs.logging_config - INFO -  -https://conciliation.stone.com.br/v1/merchant
+24/02/2023 18:23:04 - configs.logging_config - INFO -  -buscando informações de vendas cliente: 880853854
+24/02/2023 18:23:05 - configs.logging_config - INFO -  -Arquivo de extrato baixado com sucesso em:
+/home/uninassau/Área de Trabalho/code/stone-api\connection\files\880853854\2023\02-fevereiro\extrato-7.xml
+24/02/2023 18:23:59 - configs.logging_config - INFO -  -API STONE Inicializada com sucesso
+24/02/2023 18:23:59 - configs.logging_config - INFO -  -https://conciliation.stone.com.br/v1/merchant
+24/02/2023 18:23:59 - configs.logging_config - INFO -  -buscando informações de vendas cliente: 880853854
+24/02/2023 18:24:01 - configs.logging_config - INFO -  -Arquivo de extrato baixado com sucesso em:
+/home/uninassau/Área de Trabalho/code/stone-api\connection\files\880853854\2023\01-janeiro\extrato-1.xml
+24/02/2023 18:24:16 - configs.logging_config - INFO -  -API STONE Inicializada com sucesso
+24/02/2023 18:24:16 - configs.logging_config - INFO -  -https://conciliation.stone.com.br/v1/merchant
+24/02/2023 18:24:16 - configs.logging_config - INFO -  -buscando informações de vendas cliente: 880853854
+24/02/2023 18:24:18 - configs.logging_config - INFO -  -Arquivo de extrato baixado com sucesso em:
+/home/uninassau/Área de Trabalho/code/stone-api\connection\files\880853854\2023\01-janeiro\extrato-1.xml
+24/02/2023 18:26:15 - configs.logging_config - INFO -  -API STONE Inicializada com sucesso
+24/02/2023 18:26:15 - configs.logging_config - INFO -  -https://conciliation.stone.com.br/v1/merchant
+24/02/2023 18:26:15 - configs.logging_config - INFO -  -buscando informações de vendas cliente: 880853854
+24/02/2023 18:26:17 - configs.logging_config - INFO -  -Arquivo de extrato baixado com sucesso em:
+/home/uninassau/Área de Trabalho/code/stone-api\connection\files\880853854\2023\01-janeiro\extrato-1.xml
+24/02/2023 18:30:11 - configs.logging_config - INFO -  -API STONE Inicializada com sucesso
+24/02/2023 18:30:11 - configs.logging_config - INFO -  -https://conciliation.stone.com.br/v1/merchant
+24/02/2023 18:30:11 - configs.logging_config - INFO -  -buscando informações de vendas cliente: 880853854
+24/02/2023 18:30:13 - configs.logging_config - INFO -  -Arquivo de extrato baixado com sucesso em:
+/home/uninassau/Área de Trabalho/code/stone-api\connection\files\880853854\2023\01-janeiro\extrato-1.xml
+24/02/2023 18:30:58 - configs.logging_config - INFO -  -API STONE Inicializada com sucesso
+24/02/2023 18:30:58 - configs.logging_config - INFO -  -https://conciliation.stone.com.br/v1/merchant
+24/02/2023 18:30:58 - configs.logging_config - INFO -  -buscando informações de vendas cliente: 880853854
+24/02/2023 18:31:00 - configs.logging_config - INFO -  -Arquivo de extrato baixado com sucesso em:
+/home/uninassau/Área de Trabalho/code/stone-api\connection\files\880853854\2023\01-janeiro\extrato-1.xml
+24/02/2023 18:33:04 - configs.logging_config - INFO -  -API STONE Inicializada com sucesso
+24/02/2023 18:33:04 - configs.logging_config - INFO -  -https://conciliation.stone.com.br/v1/merchant
+24/02/2023 18:33:04 - configs.logging_config - INFO -  -buscando informações de vendas cliente: 880853854
+24/02/2023 18:33:06 - configs.logging_config - INFO -  -Arquivo de extrato baixado com sucesso em:
+/home/uninassau/Área de Trabalho/code/stone-api\connection\files\880853854\2023\01-janeiro\extrato-1.xml
+24/02/2023 18:34:41 - configs.logging_config - INFO -  -API STONE Inicializada com sucesso
+24/02/2023 18:34:41 - configs.logging_config - INFO -  -https://conciliation.stone.com.br/v1/merchant
+24/02/2023 18:34:41 - configs.logging_config - INFO -  -buscando informações de vendas cliente: 880853854
+24/02/2023 18:34:43 - configs.logging_config - INFO -  -Arquivo de extrato baixado com sucesso em:
+/home/uninassau/Área de Trabalho/code/stone-api\connection\files\880853854\2023\01-janeiro\extrato-1.xml
+24/02/2023 18:34:43 - configs.logging_config - DEBUG -  -------------------------------------------------------------
+24/02/2023 18:34:43 - configs.logging_config - INFO -  -Sumario de vendas salvo com sucesso em:
+/home/uninassau/Área de Trabalho/code/stone-api/vendas/files/880853854/sumario-janeiro.xlsx
+24/02/2023 18:36:56 - configs.logging_config - INFO -  -API STONE Inicializada com sucesso
+24/02/2023 18:36:56 - configs.logging_config - INFO -  -https://conciliation.stone.com.br/v1/merchant
+24/02/2023 18:36:56 - configs.logging_config - INFO -  -buscando informações de vendas cliente: 880853854
+24/02/2023 18:36:58 - configs.logging_config - INFO -  -Arquivo de extrato baixado com sucesso em:
+/home/uninassau/Área de Trabalho/code/stone-api\connection\files\880853854\2023\01-janeiro\extrato-1.xml
+24/02/2023 18:36:58 - configs.logging_config - DEBUG -  -------------------------------------------------------------
+24/02/2023 18:36:58 - configs.logging_config - INFO -  -Sumario de vendas salvo com sucesso em:
+/home/uninassau/Área de Trabalho/code/stone-api/vendas/files/880853854/sumario-janeiro.xlsx

@@ -26,7 +26,9 @@ class SumarioVendas:
             paste_path = paste_path.replace('\\', '/')
         
         for file in os.listdir(paste_path):
-            data = self.open_xml_file(os.path.join(paste_path, file))
+            actual_file = os.path.join(paste_path, file)
+            print(actual_file)
+            data = self.open_xml_file(actual_file)
             # -- Find Date transaction
             date = datetime.strptime(data.find('Header/ReferenceDate').text, "%Y%m%d")
             date = datetime.strftime(date, "%Y-%m-%d")
@@ -74,17 +76,18 @@ class SumarioVendas:
         # SendDB(json_df.getvalue()).execute()
             
         path = os.getcwd()
-        path += r'\vendas\files\sumario-{}-{}.xlsx'.format(self.stone_code, datetime.strftime(self.date, "%B"))
+        path += r'\vendas\files\{}\sumario-{}.xlsx'.format(self.stone_code, datetime.strftime(self.date, "%B"))
         if (os.name == "posix"):
             path = path.replace('\\', '/')
                                 
-        replace = '\sumario-{}.xlsx'.format(self.date.day)
+        replace = r'sumario-{}.xlsx'.format(datetime.strftime(self.date, "%B"))
         if not os.path.exists(path.replace(replace, "")):
+            print("estou criando e o path é esse aqui\n", path)
             os.makedirs(path.replace(replace, ""))
 
         df = pd.read_json(json_df.getvalue(), orient="columns")
+        df = df.sort_values(by='DataVenda')
         df.to_excel(path, index=False)
-            # to_csv(path, sep=";", index="false")
         logger.debug("---" * 20)
         # logger.debug(df.info())
         logger.info(f"Sumario de vendas salvo com sucesso em:\n{path}")
