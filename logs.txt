@@ -816,3 +816,31 @@ C:\Users\TAX Contabilidade\Desktop\Jos�\stone-api\connection\files\880853854\202
 24/02/2023 17:49:38 - configs.logging_config - DEBUG -  -------------------------------------------------------------
 24/02/2023 17:49:38 - configs.logging_config - INFO -  -Sumario de vendas salvo com sucesso em:
 C:\Users\TAX Contabilidade\Desktop\Jos�\stone-api\vendas\files\880853854\2023\02-fevereiro\sumario-7.xlsx
+24/02/2023 18:07:53 - configs.logging_config - INFO -  -API STONE Inicializada com sucesso
+24/02/2023 18:07:53 - configs.logging_config - INFO -  -https://conciliation.stone.com.br/v1/merchant
+24/02/2023 18:07:53 - configs.logging_config - INFO -  -buscando informações de vendas cliente: 880853854
+24/02/2023 18:07:54 - configs.logging_config - ERROR -  -Erro interno
+24/02/2023 18:07:54 - configs.logging_config - INFO -  -----------------------------------------
+24/02/2023 18:07:54 - configs.logging_config - ERROR -  -<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>Microsoft-Azure-Application-Gateway/v2</center>
+</body>
+</html>
+ <Response [502]>
+24/02/2023 18:10:00 - configs.logging_config - INFO -  -API STONE Inicializada com sucesso
+24/02/2023 18:10:00 - configs.logging_config - INFO -  -https://conciliation.stone.com.br/v1/merchant
+24/02/2023 18:10:00 - configs.logging_config - INFO -  -buscando informações de vendas cliente: 880853854
+24/02/2023 18:10:02 - configs.logging_config - INFO -  -Arquivo de extrato baixado com sucesso em:
+/home/uninassau/Área de Trabalho/code/stone-api\connection\files\880853854\2023\02-fevereiro\extrato-7.xml
+24/02/2023 18:10:57 - configs.logging_config - INFO -  -API STONE Inicializada com sucesso
+24/02/2023 18:10:57 - configs.logging_config - INFO -  -https://conciliation.stone.com.br/v1/merchant
+24/02/2023 18:10:57 - configs.logging_config - INFO -  -buscando informações de vendas cliente: 880853854
+24/02/2023 18:10:59 - configs.logging_config - INFO -  -Arquivo de extrato baixado com sucesso em:
+/home/uninassau/Área de Trabalho/code/stone-api\connection\files\880853854\2023\02-fevereiro\extrato-7.xml
+24/02/2023 18:11:28 - configs.logging_config - INFO -  -API STONE Inicializada com sucesso
+24/02/2023 18:11:28 - configs.logging_config - INFO -  -https://conciliation.stone.com.br/v1/merchant
+24/02/2023 18:11:28 - configs.logging_config - INFO -  -buscando informações de vendas cliente: 880853854
+24/02/2023 18:11:31 - configs.logging_config - INFO -  -Arquivo de extrato baixado com sucesso em:
+/home/uninassau/Área de Trabalho/code/stone-api\connection\files\880853854\2023\02-fevereiro\extrato-7.xml

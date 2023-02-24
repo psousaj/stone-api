@@ -1,7 +1,7 @@
 from datetime import datetime
 import pandas as pd
 import locale
-import psycopg2
+# import psycopg2
 
 from configs import logging_config
 from configs.logging_config import logger

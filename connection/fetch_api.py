@@ -10,6 +10,8 @@ from configs.logging_config import logger
 class FetchApi:
     path = os.getcwd()
     path += r'\configs\stone-credentials.json'
+    if (os.name == "posix"):
+        path = path.replace('\\', '/')
     with open(path, 'r') as f:
         data = json.load(f)
 
