@@ -15,7 +15,7 @@ file_handler = logging.FileHandler('logs.txt')
 file_handler.setLevel(logging.DEBUG)
 
 # Definindo o formato das mensagens de log
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - {} -%(message)s'.format(classe), datefmt='%d/%m/%Y %H:%M:%S')
+formatter = logging.Formatter('%(asctime)s - %(name)s -%(levelname)s- %(message)s'.format(classe), datefmt='%d/%m/%Y|%H:%M:%S')
 console_handler.setFormatter(formatter)
 file_handler.setFormatter(formatter)
 

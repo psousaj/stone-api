@@ -1,7 +1,7 @@
 import requests
 import json
 import os
-from datetime import datetime
+from datetime import datetime, timedelta
 import xml.etree.ElementTree as ET
 from connection.access.fetch_access import FetchAccess
 from configs.logging_config import logger
@@ -51,22 +51,28 @@ class FetchApi:
         response = requests.get(extrato_url, headers=headers)
 
         if response.status_code == 200:
-            root = ET.fromstring(response.content)
-
             path = os.getcwd()
             path += r'\connection\files\{}\{}\{}-{}\extrato-{}.xml'.format(self.stone_code,
                                                                         datetime.strftime(self.date, '%Y'),
                                                                         datetime.strftime(self.date, '%m'),
                                                                         datetime.strftime(self.date, '%B'),
                                                                         self.date.day)
-            replace = '\extrato-{}.xml'.format(self.date.day)
+            replace = 'extrato-{}.xml'.format(self.date.day)
+
+            if (os.name == "posix"):
+                path = path.replace("\\", "/")
+
             if not os.path.exists(path.replace(replace, "")):
                 os.makedirs(path.replace(replace, ""))
+
             with open(path, 'w') as file:
                 file.write(response.text)
 
-            logger.info(f"Arquivo de extrato baixado com sucesso em:\n{path}")
+            logger.info(f"Arquivo de extrato baixado em:\n{path}")
         else:
             logger.error("Erro interno")
             logger.info('--' * 20)
             logger.error(f'{response.text} {response}')
+
+    def update_time(self):
+        self.date += timedelta(days=1)
