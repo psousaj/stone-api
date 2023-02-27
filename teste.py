@@ -1,5 +1,12 @@
 import  subprocess
+import os
+import tkinter
 
-args = ['python3', 'teste2.py', '--primeiro', 'Banana', '--segundo', 'Funcionou']
 
+
+
+
+
+interpreter = 'python3' if os.name == 'posix' else 'python'
+args = [interpreter, 'main.py', '--code', '0', '--m', 'None', '--a', '']
 subprocess.Popen(args)

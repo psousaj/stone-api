@@ -10,7 +10,6 @@ class SendDB:
         self.conn = Connect().con
         self.cursor = self.conn.cursor()
         self.data = json.loads(data)
-        logging_config.classe = self.__class__.__name__
 
     def execute(self):
         data = self.data
@@ -18,17 +17,19 @@ class SendDB:
         con = self.conn
 
         for entry in data:
-            sql = """INSERT INTO public.rede_api_teste 
+            sql = """INSERT INTO public.stone_api 
                      VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"""
 
-            logger.debug(entry)
-
-            cur.execute(sql, (entry['cod_empresa'], entry['DataVenda'], entry['Valor'],
+            # logger.debug(entry)
+            
+            try:
+                cur.execute(sql, (entry['cod_empresa'], entry['DataVenda'], entry['Valor'],
                               entry['TaxaMdr'], entry['ValorMdr'], entry['ValorLiquido'],
                               entry['Modalidade'], entry['Parcelas'], entry['Status'],
                               entry['NSU'], entry['NumeroVenda'], entry['Empresa']))
 
-            con.commit()
-
+                con.commit()
+            except Exception:
+                logger.info(f"Violação de Constraint, registro já salvo no banco de dados")
         cur.close()
         con.close()
