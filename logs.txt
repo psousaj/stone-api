@@ -1,3 +1,13 @@
 27/02/2023|16:18:17 - configs.logging_config -INFO- Conexão com DataBaseTax em: 192.168.1.54
 27/02/2023|16:18:50 - configs.logging_config -INFO- Conexão com DataBaseTax em: 192.168.1.54
 27/02/2023|16:19:05 - configs.logging_config -INFO- Conexão com DataBaseTax em: 192.168.1.54
+27/02/2023|16:46:33 - configs.logging_config -INFO- Conexão com DataBaseTax em: 192.168.1.54
+27/02/2023|16:46:33 - configs.logging_config -DEBUG- 01/01/2023 até 31/01/2023
+27/02/2023|16:46:33 - configs.logging_config -INFO- API STONE Inicializada com sucesso
+27/02/2023|16:46:33 - configs.logging_config -INFO- https://conciliation.stone.com.br/v1/merchant
+27/02/2023|16:46:33 - configs.logging_config -INFO- Mandando para DataBase
+27/02/2023|16:47:10 - configs.logging_config -INFO- Conexão com DataBaseTax em: 192.168.1.54
+27/02/2023|16:47:10 - configs.logging_config -DEBUG- 01/01/2023 até 31/01/2023
+27/02/2023|16:47:10 - configs.logging_config -INFO- API STONE Inicializada com sucesso
+27/02/2023|16:47:10 - configs.logging_config -INFO- https://conciliation.stone.com.br/v1/merchant
+27/02/2023|16:47:10 - configs.logging_config -INFO- Mandando para DataBase
