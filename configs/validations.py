@@ -70,7 +70,7 @@ def getPath(code:int, date:datetime, extension:str, complete=False, create_if_no
         """
         path = os.getcwd()
         if export_path:
-            path += r'\connection\files\{}\{}\relatorio-{}.{}'.format(empresa,
+            path += r'\connection\files\{}\{}\relatorio-stone-{}.{}'.format(empresa,
                                                                     date.strftime('%Y'),
                                                                     date.strftime('%B'),
                                                                     extension)
