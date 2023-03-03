@@ -2,6 +2,7 @@ import argparse
 import calendar
 import locale
 from datetime import datetime
+import sys
 from vendas.sales import SumarioVendas
 from connection.connectdb import Connect
 from configs.logging_config import logger
@@ -23,7 +24,7 @@ if args.cnpj is not None:
     result = DB.execute(sql)
 
 ##-- SET Initial Configs
-date = datetime(2023, 1, 1) if not args.code else datetime(args.mes, args.ano, 1)
+date = datetime(2023, 1, 1) if not args.code or not args.cnpj else datetime(args.mes, args.ano, 1)
 end_date = date.replace(day=calendar.monthrange(date.year, date.month )[1])
 end_date = datetime.now() if not end_date.day > datetime.now().day else end_date
 code = 880853854 if not args.code else result
@@ -42,5 +43,6 @@ SumarioVendas(code, date).perform().export()
 # #-- Consulta DB e faz o relatório do total de vendas mensal
 RelatorioPeriodo(date).perform().show()
 
+sys.exit()
 #------------------------------------------------------------------
 

@@ -1,7 +1,20 @@
 
+import sys
+import threading
+import time
 from tkinter import *
 import tkinter
 import  subprocess
+
+class ThreadedTask(threading.Thread):
+    def __init__(self, callback):
+        threading.Thread.__init__(self)
+        self.callback = callback
+
+    def run(self):
+        # coloque aqui a tarefa que deve ser executada na thread
+        time.sleep(5) # simulando um processamento longo
+        self.callback()
 
 master = Tk()
 # Cria a janela principal
@@ -54,11 +67,31 @@ dropdown_ano = OptionMenu(master, ano, *anos)
 dropdown_ano.place(relx=0.34672, rely=0.59) if not master.size()[1] > 500 else dropdown_ano.place(relx=0.34672, rely=1)
 dropdown_ano.config(width=18, height=1, font=("Poppins", 16))
 
+def sub_process (args):
+    meses = {
+        "janeiro": "1",
+        "fevereiro": "2",
+        "março": "3",
+        "abril": "4",
+        "maio": "5",
+        "junho": "6",
+        "julho": "7",
+        "agosto": "8",
+        "setembro": "9",
+        "outubro": "10",
+        "novembro": "11",
+        "dezembro": "12"
+    }
+    args[5] = meses.get(str(args[5]).lower())
+    print("AQUIII", args[5])
+    print("ARGS", args)
+    subprocess.Popen(args)
 
 def init_program():
     args = ['python', 'main.py', '--cnpj', f'{string_var.get()}', '--mes', f'{mes_selecionado.get()}', '--ano', f'{ano.get()}']
-    subprocess.Popen(args)
-
+    thread = threading.Thread(target=sub_process, args=(args,))
+    thread.start()
+    thread.join() # espera a thread terminar
 
 btn = Button(master, text="Buscar", bg="#0FCF5F", fg="white", command=init_program) #, width=345, height=448
 btn.config(font=("Poppins", 14))
@@ -67,3 +100,7 @@ btn.place(relx="0.659", rely="0.679")
 master.maxsize(584, 570)
 master.minsize(584, 565)
 master.mainloop()
+
+time.sleep(5)
+print("esperando...")
+sys.exit()
