@@ -7,14 +7,14 @@ from configs.logging_config import logger
 
 class FetchAccess:
 
-    def __init__(self, application_key, encryption_string, stone_code, base_url):
+    def __init__(self, application_key, encryption_string, signature, stone_code, base_url):
         logger.info("inicio api de conexão")
         locale.setlocale(locale.LC_ALL, 'pt_BR.utf8')
         self.application_key = application_key
         self.encryption_string = encryption_string
+        self.signature = signature
         self.stone_code = stone_code
         self.base_url = base_url
-        logging_config.classe = self.__class__.__name__
 
     def create_access(self):
         logger.info(f"solicitação de acesso enviada para {self.stone_code}")
