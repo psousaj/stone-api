@@ -1,6 +1,7 @@
 
 from tkinter import *
 import tkinter
+import  subprocess
 
 master = Tk()
 # Cria a janela principal
@@ -21,9 +22,11 @@ bg_label.place(x=0, y=0, relwidth=1, relheight=1)
 # frame.attributes("-alpha", 0.5)
 
 # Adiciona um label ao frame
-label = Entry(master, bg="#ffffff")
-label.place(relx=0.34672, rely=0.4851)
+string_var = StringVar()
+label = Entry(master, bg="#ffffff", textvariable=string_var)
+label.place(relx=0.34672, rely=0.38)
 label.config(width=17, font=("Poppins", 20))
+
 
 # lista de meses
 meses = ['Selecione', 'Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 
@@ -35,7 +38,7 @@ mes_selecionado.set(meses[0])  # seta o valor inicial
 
 # cria o dropdown
 dropdown = OptionMenu(master, mes_selecionado, *meses)
-dropdown.place(relx=0.34672, rely=0.582)
+dropdown.place(relx=0.34672, rely=0.48)
 dropdown.config(width=18, height=1, font=("Poppins", 16))
 
 
@@ -48,12 +51,18 @@ ano.set(meses[0])  # seta o valor inicial
 
 # cria o dropdown
 dropdown_ano = OptionMenu(master, ano, *anos)
-dropdown_ano.place(relx=0.34672, rely=0.6907) if not master.size()[1] > 500 else dropdown_ano.place(relx=0.34672, rely=1)
+dropdown_ano.place(relx=0.34672, rely=0.59) if not master.size()[1] > 500 else dropdown_ano.place(relx=0.34672, rely=1)
 dropdown_ano.config(width=18, height=1, font=("Poppins", 16))
 
-btn = Button(master, text="Buscar", bg="#0FCF5F", fg="white") #, width=345, height=448
-btn.config(font=("Poppins", 15))
-btn.place(relx="0.659", rely="0.784")
+
+def init_program():
+    args = ['python', 'main.py', '--cnpj', f'{string_var.get()}', '--mes', f'{mes_selecionado.get()}', '--ano', f'{ano.get()}']
+    subprocess.Popen(args)
+
+
+btn = Button(master, text="Buscar", bg="#0FCF5F", fg="white", command=init_program) #, width=345, height=448
+btn.config(font=("Poppins", 14))
+btn.place(relx="0.659", rely="0.679")
 
 master.maxsize(584, 570)
 master.minsize(584, 565)

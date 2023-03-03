@@ -1294,3 +1294,275 @@ C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\vendas\files\K L RAMOS RIB
 03/03/2023|11:31:41 - configs.logging_config -INFO- {'currentAccessStatus': 'Allowed', 'accessRequestHistory': []}
 03/03/2023|11:31:41 - configs.logging_config -INFO- ----------------------------------------
 03/03/2023|11:31:41 - configs.logging_config -INFO- Status da solicitação à empresa 880853854: Allowed
+03/03/2023|15:48:25 - configs.logging_config -INFO- Conexão com DataBaseTax em: 192.168.1.54
+03/03/2023|15:49:25 - configs.logging_config -INFO- Conexão com DataBaseTax em: 192.168.1.54
+03/03/2023|15:50:10 - configs.logging_config -INFO- Conexão com DataBaseTax em: 192.168.1.54
+03/03/2023|15:50:30 - configs.logging_config -INFO- Conexão com DataBaseTax em: 192.168.1.54
+03/03/2023|15:51:35 - configs.logging_config -INFO- Conexão com DataBaseTax em: 192.168.1.54
+03/03/2023|15:51:42 - configs.logging_config -INFO- Conexão com DataBaseTax em: 192.168.1.54
+03/03/2023|15:51:55 - configs.logging_config -INFO- Conexão com DataBaseTax em: 192.168.1.54
+03/03/2023|15:57:58 - configs.logging_config -INFO- Conexão com DataBaseTax em: 192.168.1.54
+03/03/2023|16:02:10 - configs.logging_config -INFO- Conexão com DataBaseTax em: 192.168.1.54
+03/03/2023|16:08:29 - configs.logging_config -INFO- Conexão com DataBaseTax em: 192.168.1.54
+03/03/2023|16:08:29 - configs.logging_config -DEBUG- 01/01/2023 até 31/01/2023
+03/03/2023|16:08:29 - configs.logging_config -INFO- API STONE Inicializada com sucesso
+03/03/2023|16:08:29 - configs.logging_config -INFO- https://conciliation.stone.com.br/v1/merchant
+03/03/2023|16:08:29 - configs.logging_config -DEBUG- Data Atual: 01/01/2023
+03/03/2023|16:08:29 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+03/03/2023|16:08:32 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-1.xml
+03/03/2023|16:08:32 - configs.logging_config -DEBUG- Data Atual: 02/01/2023
+03/03/2023|16:08:32 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+03/03/2023|16:08:33 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-2.xml
+03/03/2023|16:08:33 - configs.logging_config -DEBUG- Data Atual: 03/01/2023
+03/03/2023|16:08:33 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+03/03/2023|16:08:35 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-3.xml
+03/03/2023|16:08:35 - configs.logging_config -DEBUG- Data Atual: 04/01/2023
+03/03/2023|16:08:35 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+03/03/2023|16:08:37 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-4.xml
+03/03/2023|16:08:37 - configs.logging_config -DEBUG- Data Atual: 05/01/2023
+03/03/2023|16:08:37 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+03/03/2023|16:08:39 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-5.xml
+03/03/2023|16:08:39 - configs.logging_config -DEBUG- Data Atual: 06/01/2023
+03/03/2023|16:08:39 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+03/03/2023|16:08:40 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-6.xml
+03/03/2023|16:08:40 - configs.logging_config -DEBUG- Data Atual: 07/01/2023
+03/03/2023|16:08:40 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+03/03/2023|16:08:42 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-7.xml
+03/03/2023|16:08:42 - configs.logging_config -DEBUG- Data Atual: 08/01/2023
+03/03/2023|16:08:42 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+03/03/2023|16:08:43 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-8.xml
+03/03/2023|16:08:43 - configs.logging_config -DEBUG- Data Atual: 09/01/2023
+03/03/2023|16:08:43 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+03/03/2023|16:08:45 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-9.xml
+03/03/2023|16:08:45 - configs.logging_config -DEBUG- Data Atual: 10/01/2023
+03/03/2023|16:08:45 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+03/03/2023|16:08:47 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-10.xml
+03/03/2023|16:08:47 - configs.logging_config -DEBUG- Data Atual: 11/01/2023
+03/03/2023|16:08:47 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+03/03/2023|16:08:49 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-11.xml
+03/03/2023|16:08:49 - configs.logging_config -DEBUG- Data Atual: 12/01/2023
+03/03/2023|16:08:49 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+03/03/2023|16:08:50 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-12.xml
+03/03/2023|16:08:50 - configs.logging_config -DEBUG- Data Atual: 13/01/2023
+03/03/2023|16:08:50 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+03/03/2023|16:08:52 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-13.xml
+03/03/2023|16:08:52 - configs.logging_config -DEBUG- Data Atual: 14/01/2023
+03/03/2023|16:08:52 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+03/03/2023|16:08:53 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-14.xml
+03/03/2023|16:08:53 - configs.logging_config -DEBUG- Data Atual: 15/01/2023
+03/03/2023|16:08:53 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+03/03/2023|16:08:55 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-15.xml
+03/03/2023|16:08:55 - configs.logging_config -DEBUG- Data Atual: 16/01/2023
+03/03/2023|16:08:55 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+03/03/2023|16:08:57 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-16.xml
+03/03/2023|16:08:57 - configs.logging_config -DEBUG- Data Atual: 17/01/2023
+03/03/2023|16:08:57 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+03/03/2023|16:08:59 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-17.xml
+03/03/2023|16:08:59 - configs.logging_config -DEBUG- Data Atual: 18/01/2023
+03/03/2023|16:08:59 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+03/03/2023|16:09:00 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-18.xml
+03/03/2023|16:09:00 - configs.logging_config -DEBUG- Data Atual: 19/01/2023
+03/03/2023|16:09:00 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+03/03/2023|16:09:02 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-19.xml
+03/03/2023|16:09:02 - configs.logging_config -DEBUG- Data Atual: 20/01/2023
+03/03/2023|16:09:02 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+03/03/2023|16:09:04 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-20.xml
+03/03/2023|16:09:04 - configs.logging_config -DEBUG- Data Atual: 21/01/2023
+03/03/2023|16:09:04 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+03/03/2023|16:09:05 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-21.xml
+03/03/2023|16:09:05 - configs.logging_config -DEBUG- Data Atual: 22/01/2023
+03/03/2023|16:09:05 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+03/03/2023|16:09:08 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-22.xml
+03/03/2023|16:09:08 - configs.logging_config -DEBUG- Data Atual: 23/01/2023
+03/03/2023|16:09:08 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+03/03/2023|16:09:09 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-23.xml
+03/03/2023|16:09:09 - configs.logging_config -DEBUG- Data Atual: 24/01/2023
+03/03/2023|16:09:09 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+03/03/2023|16:09:11 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-24.xml
+03/03/2023|16:09:11 - configs.logging_config -DEBUG- Data Atual: 25/01/2023
+03/03/2023|16:09:11 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+03/03/2023|16:09:12 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-25.xml
+03/03/2023|16:09:12 - configs.logging_config -DEBUG- Data Atual: 26/01/2023
+03/03/2023|16:09:12 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+03/03/2023|16:09:14 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-26.xml
+03/03/2023|16:09:14 - configs.logging_config -DEBUG- Data Atual: 27/01/2023
+03/03/2023|16:09:14 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+03/03/2023|16:09:16 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-27.xml
+03/03/2023|16:09:16 - configs.logging_config -DEBUG- Data Atual: 28/01/2023
+03/03/2023|16:09:16 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+03/03/2023|16:09:18 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-28.xml
+03/03/2023|16:09:18 - configs.logging_config -DEBUG- Data Atual: 29/01/2023
+03/03/2023|16:09:18 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+03/03/2023|16:09:19 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-29.xml
+03/03/2023|16:09:19 - configs.logging_config -DEBUG- Data Atual: 30/01/2023
+03/03/2023|16:09:19 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+03/03/2023|16:09:21 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-30.xml
+03/03/2023|16:09:21 - configs.logging_config -DEBUG- Data Atual: 31/01/2023
+03/03/2023|16:09:21 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+03/03/2023|16:09:22 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-31.xml
+03/03/2023|16:09:23 - configs.logging_config -INFO- Conexão com DataBaseTax em: 192.168.1.54
+03/03/2023|16:09:23 - configs.logging_config -INFO- Mandando para DataBase
+03/03/2023|16:09:23 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:23 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:23 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:23 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:23 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:23 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:23 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:23 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:23 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:23 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:23 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:24 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:25 - configs.logging_config -INFO- Violação de Constraint, registro já salvo no banco de dados
+03/03/2023|16:09:26 - configs.logging_config -DEBUG- ------------------------------------------------------------
+03/03/2023|16:09:26 - configs.logging_config -INFO- Relatório de vendas salvo com sucesso em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\vendas\files\K L RAMOS RIBEIRO\2023\relatorio-janeiro.xlsx
+03/03/2023|16:09:26 - configs.logging_config -DEBUG- ------------------------------------------------------------
+03/03/2023|16:09:27 - configs.logging_config -INFO- Conexão com DataBaseTax em: 192.168.1.54
+03/03/2023|16:09:27 - configs.logging_config -DEBUG- ------------------------------
+03/03/2023|16:09:27 - configs.logging_config -INFO- 10/01/2023 - K L RAMOS RIBEIRO
+03/03/2023|16:09:27 - configs.logging_config -INFO- Adicionando venda CRÉDITO: R$14.50
+03/03/2023|16:09:27 - configs.logging_config -DEBUG- ------------------------------
+03/03/2023|16:09:27 - configs.logging_config -INFO- 10/01/2023 - K L RAMOS RIBEIRO
+03/03/2023|16:09:27 - configs.logging_config -INFO- Adicionando venda CRÉDITO: R$21.00
+03/03/2023|16:09:27 - configs.logging_config -DEBUG- ------------------------------
+03/03/2023|16:09:27 - configs.logging_config -INFO- 10/01/2023 - K L RAMOS RIBEIRO
+03/03/2023|16:09:27 - configs.logging_config -INFO- Adicionando venda CRÉDITO: R$9.00
+03/03/2023|16:09:27 - configs.logging_config -DEBUG- ------------------------------
+03/03/2023|16:09:27 - configs.logging_config -INFO- 11/01/2023 - K L RAMOS RIBEIRO
+03/03/2023|16:09:27 - configs.logging_config -INFO- Adicionando venda CRÉDITO: R$44.00
+03/03/2023|16:09:27 - configs.logging_config -DEBUG- ------------------------------
+03/03/2023|16:09:27 - configs.logging_config -INFO- 11/01/2023 - K L RAMOS RIBEIRO
+03/03/2023|16:09:27 - configs.logging_config -INFO- Adicionando venda CRÉDITO: R$7.00
+03/03/2023|16:09:27 - configs.logging_config -DEBUG- ------------------------------
+03/03/2023|16:09:27 - configs.logging_config -INFO- 11/01/2023 - K L RAMOS RIBEIRO
+03/03/2023|16:09:27 - configs.logging_config -INFO- Adicionando venda CRÉDITO: R$18.00
+03/03/2023|16:09:27 - configs.logging_config -DEBUG- ------------------------------
+03/03/2023|16:09:27 - configs.logging_config -INFO- 11/01/2023 - K L RAMOS RIBEIRO
+03/03/2023|16:09:27 - configs.logging_config -INFO- Adicionando venda CRÉDITO: R$7.50
+03/03/2023|16:09:27 - configs.logging_config -DEBUG- ------------------------------
+03/03/2023|16:09:27 - configs.logging_config -INFO- 12/01/2023 - K L RAMOS RIBEIRO
+03/03/2023|16:09:27 - configs.logging_config -INFO- Adicionando venda CRÉDITO: R$4.00
+03/03/2023|16:09:27 - configs.logging_config -DEBUG- ------------------------------
+03/03/2023|16:09:27 - configs.logging_config -INFO- 12/01/2023 - K L RAMOS RIBEIRO
+03/03/2023|16:09:27 - configs.logging_config -INFO- Adicionando venda CRÉDITO: R$26.00
+03/03/2023|16:09:27 - configs.logging_config -DEBUG- ------------------------------
+03/03/2023|16:09:27 - configs.logging_config -INFO- 13/01/2023 - K L RAMOS RIBEIRO
+03/03/2023|16:09:27 - configs.logging_config -INFO- Adicionando venda CRÉDITO: R$35.00
+03/03/2023|16:09:27 - configs.logging_config -DEBUG- ------------------------------
+03/03/2023|16:09:27 - configs.logging_config -INFO- 13/01/2023 - K L RAMOS RIBEIRO
+03/03/2023|16:09:27 - configs.logging_config -INFO- Adicionando venda CRÉDITO: R$5.00
+03/03/2023|16:09:27 - configs.logging_config -DEBUG- ------------------------------
+03/03/2023|16:09:27 - configs.logging_config -INFO- Relatório K L RAMOS RIBEIRO - JANEIRO 
+03/03/2023|16:09:27 - configs.logging_config -INFO- VALOR TOTAL NO PERIODO: R$191.00

@@ -44,6 +44,14 @@ class Connect:
         cur.close()
         con.close()
 
+    def execute(self, sql):
+        cursor = self.cursor
+
+        cursor.execute(sql)
+
+        result = cursor.fetchone()[0]
+        return result
+
     def get_db(self, sql):
         """Busca os registros referentes ao código do cliente e ao mês informado
 

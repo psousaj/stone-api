@@ -1,25 +1,32 @@
 import argparse
-from datetime import datetime
 import calendar
 import locale
+from datetime import datetime
+from vendas.sales import SumarioVendas
+from connection.connectdb import Connect
 from configs.logging_config import logger
 from connection.fetch_api import FetchApi
-from vendas.sales import SumarioVendas
 from relatorio.report import RelatorioPeriodo
 
 ##--ARGPARSE
 parser = argparse.ArgumentParser()
 parser.add_argument("--code", nargs='?')
-parser.add_argument("--m", nargs='?')
-parser.add_argument("--a", nargs='?')
+parser.add_argument("--cnpj", nargs='?')
+parser.add_argument("--mes", nargs='?')
+parser.add_argument("--ano", nargs='?')
 
 args = parser.parse_args()
 
+if args.cnpj is not None:
+    DB = Connect()
+    sql = f"SELECT cod_maquinetas ->> 'stone' FROM public.companies WHERE cnpj = '{args.cnpj}'"
+    result = DB.execute(sql)
+
 ##-- SET Initial Configs
-date = datetime(2023, 1, 1) if not args.code else datetime(args.m, args.a, 1)
+date = datetime(2023, 1, 1) if not args.code else datetime(args.mes, args.ano, 1)
 end_date = date.replace(day=calendar.monthrange(date.year, date.month )[1])
 end_date = datetime.now() if not end_date.day > datetime.now().day else end_date
-code = 880853854 if not args.code else args.code
+code = 880853854 if not args.code else result
 
 locale.setlocale(locale.LC_ALL, 'pt_BR.utf8')
 api = FetchApi(code, date, end_date)
