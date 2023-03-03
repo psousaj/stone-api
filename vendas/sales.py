@@ -4,7 +4,6 @@ import json
 import shutil
 import time
 import pandas as pd
-
 from datetime import datetime
 from connection.connectdb import Connect
 from configs.logging_config import logger
