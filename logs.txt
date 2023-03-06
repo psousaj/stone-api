@@ -2708,3 +2708,157 @@ C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\vendas\files\K L RAMOS RIB
 03/03/2023|17:55:24 - configs.logging_config -INFO- https://conciliation.stone.com.br/v1/merchant
 03/03/2023|17:55:24 - configs.logging_config -DEBUG- Data Atual: 01/01/2023
 03/03/2023|17:55:24 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:15:35 - configs.logging_config -INFO- Conexão com DataBaseTax em: 192.168.1.54
+06/03/2023|08:15:35 - configs.logging_config -DEBUG- 01/01/2023 até 31/01/2023
+06/03/2023|08:15:35 - configs.logging_config -INFO- API STONE Inicializada com sucesso
+06/03/2023|08:15:35 - configs.logging_config -INFO- https://conciliation.stone.com.br/v1/merchant
+06/03/2023|08:15:35 - configs.logging_config -DEBUG- Data Atual: 01/01/2023
+06/03/2023|08:15:35 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:15:38 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-1.xml
+06/03/2023|08:15:38 - configs.logging_config -DEBUG- Data Atual: 02/01/2023
+06/03/2023|08:15:38 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:15:40 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-2.xml
+06/03/2023|08:15:40 - configs.logging_config -DEBUG- Data Atual: 03/01/2023
+06/03/2023|08:15:40 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:15:42 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-3.xml
+06/03/2023|08:15:42 - configs.logging_config -DEBUG- Data Atual: 04/01/2023
+06/03/2023|08:15:42 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:15:43 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-4.xml
+06/03/2023|08:15:43 - configs.logging_config -DEBUG- Data Atual: 05/01/2023
+06/03/2023|08:15:43 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:15:45 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-5.xml
+06/03/2023|08:15:45 - configs.logging_config -DEBUG- Data Atual: 06/01/2023
+06/03/2023|08:15:45 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:15:46 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-6.xml
+06/03/2023|08:15:46 - configs.logging_config -DEBUG- Data Atual: 07/01/2023
+06/03/2023|08:15:46 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:20:48 - configs.logging_config -INFO- Conexão com DataBaseTax em: 192.168.1.54
+06/03/2023|08:20:48 - configs.logging_config -DEBUG- 01/01/2023 até 31/01/2023
+06/03/2023|08:20:48 - configs.logging_config -INFO- API STONE Inicializada com sucesso
+06/03/2023|08:20:48 - configs.logging_config -INFO- https://conciliation.stone.com.br/v1/merchant
+06/03/2023|08:20:48 - configs.logging_config -DEBUG- Data Atual: 01/01/2023
+06/03/2023|08:20:48 - configs.logging_config -INFO- buscando informações de vendas cliente: Não foi
+06/03/2023|08:20:49 - configs.logging_config -ERROR- Erro interno
+06/03/2023|08:20:49 - configs.logging_config -INFO- ----------------------------------------
+06/03/2023|08:28:44 - configs.logging_config -INFO- Conexão com DataBaseTax em: 192.168.1.54
+06/03/2023|08:28:44 - configs.logging_config -DEBUG- 01/01/2023 até 31/01/2023
+06/03/2023|08:28:44 - configs.logging_config -INFO- API STONE Inicializada com sucesso
+06/03/2023|08:28:44 - configs.logging_config -INFO- https://conciliation.stone.com.br/v1/merchant
+06/03/2023|08:28:44 - configs.logging_config -DEBUG- Data Atual: 01/01/2023
+06/03/2023|08:28:44 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:28:46 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-1.xml
+06/03/2023|08:28:46 - configs.logging_config -DEBUG- Data Atual: 02/01/2023
+06/03/2023|08:28:46 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:28:48 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-2.xml
+06/03/2023|08:28:48 - configs.logging_config -DEBUG- Data Atual: 03/01/2023
+06/03/2023|08:28:48 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:28:50 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-3.xml
+06/03/2023|08:28:50 - configs.logging_config -DEBUG- Data Atual: 04/01/2023
+06/03/2023|08:28:50 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:28:52 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-4.xml
+06/03/2023|08:28:52 - configs.logging_config -DEBUG- Data Atual: 05/01/2023
+06/03/2023|08:28:52 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:28:53 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-5.xml
+06/03/2023|08:28:53 - configs.logging_config -DEBUG- Data Atual: 06/01/2023
+06/03/2023|08:28:53 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:28:55 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-6.xml
+06/03/2023|08:28:55 - configs.logging_config -DEBUG- Data Atual: 07/01/2023
+06/03/2023|08:28:55 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:28:57 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\01-janeiro\extrato-7.xml
+06/03/2023|08:28:57 - configs.logging_config -DEBUG- Data Atual: 08/01/2023
+06/03/2023|08:28:57 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:30:33 - configs.logging_config -INFO- Conexão com DataBaseTax em: 192.168.1.54
+06/03/2023|08:31:34 - configs.logging_config -INFO- Conexão com DataBaseTax em: 192.168.1.54
+06/03/2023|08:31:34 - configs.logging_config -DEBUG- 01/02/2023 até 28/02/2023
+06/03/2023|08:31:34 - configs.logging_config -INFO- API STONE Inicializada com sucesso
+06/03/2023|08:31:34 - configs.logging_config -INFO- https://conciliation.stone.com.br/v1/merchant
+06/03/2023|08:31:34 - configs.logging_config -DEBUG- Data Atual: 01/02/2023
+06/03/2023|08:31:34 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:31:36 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\02-fevereiro\extrato-1.xml
+06/03/2023|08:31:36 - configs.logging_config -DEBUG- Data Atual: 02/02/2023
+06/03/2023|08:31:36 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:32:40 - configs.logging_config -INFO- Conexão com DataBaseTax em: 192.168.1.54
+06/03/2023|08:32:40 - configs.logging_config -DEBUG- 01/02/2023 até 28/02/2023
+06/03/2023|08:32:40 - configs.logging_config -INFO- API STONE Inicializada com sucesso
+06/03/2023|08:32:40 - configs.logging_config -INFO- https://conciliation.stone.com.br/v1/merchant
+06/03/2023|08:32:40 - configs.logging_config -DEBUG- Data Atual: 01/02/2023
+06/03/2023|08:32:40 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:32:42 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\02-fevereiro\extrato-1.xml
+06/03/2023|08:32:42 - configs.logging_config -DEBUG- Data Atual: 02/02/2023
+06/03/2023|08:32:42 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:32:56 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\02-fevereiro\extrato-2.xml
+06/03/2023|08:32:56 - configs.logging_config -DEBUG- Data Atual: 03/02/2023
+06/03/2023|08:32:56 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:33:58 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\02-fevereiro\extrato-2.xml
+06/03/2023|08:33:58 - configs.logging_config -DEBUG- Data Atual: 03/02/2023
+06/03/2023|08:33:58 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:34:23 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\02-fevereiro\extrato-3.xml
+06/03/2023|08:34:23 - configs.logging_config -DEBUG- Data Atual: 04/02/2023
+06/03/2023|08:34:23 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:34:26 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\02-fevereiro\extrato-4.xml
+06/03/2023|08:34:26 - configs.logging_config -DEBUG- Data Atual: 05/02/2023
+06/03/2023|08:34:26 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:34:28 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\02-fevereiro\extrato-5.xml
+06/03/2023|08:34:28 - configs.logging_config -DEBUG- Data Atual: 06/02/2023
+06/03/2023|08:34:28 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:35:28 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\02-fevereiro\extrato-3.xml
+06/03/2023|08:35:28 - configs.logging_config -DEBUG- Data Atual: 04/02/2023
+06/03/2023|08:35:28 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:35:32 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\02-fevereiro\extrato-4.xml
+06/03/2023|08:35:32 - configs.logging_config -DEBUG- Data Atual: 05/02/2023
+06/03/2023|08:35:32 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:36:57 - configs.logging_config -DEBUG- 01/02/2023 até 28/02/2023
+06/03/2023|08:36:57 - configs.logging_config -INFO- API STONE Inicializada com sucesso
+06/03/2023|08:36:57 - configs.logging_config -INFO- https://conciliation.stone.com.br/v1/merchant
+06/03/2023|08:36:57 - configs.logging_config -DEBUG- Data Atual: 01/02/2023
+06/03/2023|08:36:57 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:36:59 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\02-fevereiro\extrato-1.xml
+06/03/2023|08:36:59 - configs.logging_config -DEBUG- Data Atual: 02/02/2023
+06/03/2023|08:36:59 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:37:00 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\02-fevereiro\extrato-2.xml
+06/03/2023|08:37:01 - configs.logging_config -DEBUG- Data Atual: 03/02/2023
+06/03/2023|08:37:01 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:37:03 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\02-fevereiro\extrato-3.xml
+06/03/2023|08:37:03 - configs.logging_config -DEBUG- Data Atual: 04/02/2023
+06/03/2023|08:37:03 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:37:04 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\02-fevereiro\extrato-4.xml
+06/03/2023|08:37:04 - configs.logging_config -DEBUG- Data Atual: 05/02/2023
+06/03/2023|08:37:04 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:37:06 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\02-fevereiro\extrato-5.xml
+06/03/2023|08:37:06 - configs.logging_config -DEBUG- Data Atual: 06/02/2023
+06/03/2023|08:37:06 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:37:08 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\02-fevereiro\extrato-6.xml
+06/03/2023|08:37:08 - configs.logging_config -DEBUG- Data Atual: 07/02/2023
+06/03/2023|08:37:08 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854
+06/03/2023|08:37:09 - configs.logging_config -INFO- Arquivo de extrato baixado em:
+C:\Users\TAX Contabilidade\Desktop\José\api\stone-api\connection\files\880853854\2023\02-fevereiro\extrato-7.xml
+06/03/2023|08:37:09 - configs.logging_config -DEBUG- Data Atual: 08/02/2023
+06/03/2023|08:37:09 - configs.logging_config -INFO- buscando informações de vendas cliente: 880853854

@@ -1,10 +1,11 @@
 
+import os
 import sys
 import threading
-import time
-from tkinter import *
-import tkinter as tk
 import  subprocess
+import tkinter as tk
+from tkinter import *
+from configs.logging_config import logger
 
 class ThreadedTask(threading.Thread):
     def __init__(self, callback, args):
@@ -32,16 +33,21 @@ class ThreadedTask(threading.Thread):
         print("AQUIII", args[5])
         print("ARGS", args)
 
-        thread = threading.Thread(target=subprocess.Popen, args=(args,))
-        thread.start()
-        thread.join()
+        try:
+            # thread = threading.Thread(target=subprocess.Popen, args=(args,))
+            subprocess.Popen(args)
+            # thread.start()
+            # thread.join()
+        except Exception:
+            logger.error("Ocorreu um erro, verifique os logs e tente novamente")
+            sys.exit()
 
         self.callback()
 
 class App:
     def __init__(self, master):
         self.master = master
-        self.bg = PhotoImage(file=r"C:\Users\TAX Contabilidade\Desktop\background.png")
+        self.bg = PhotoImage(file=r"{}\assets\background.png".format(os.getcwd()))
         self.bg_label = Label(self.master, image=self.bg)
         self.button = Button(self.master, text="Buscar", bg="#0FCF5F", fg="white", command=self.start_task)
         self.string_var= " "
@@ -59,11 +65,6 @@ class App:
         # Adiciona a imagem de fundo à janela usando o método place
         bg_label = self.bg_label
         bg_label.place(x=0, y=0, relwidth=1, relheight=1)
-
-        # # Cria um frame para adicionar outros widgets
-        # frame = master.Frame(master, bg="#eee")
-        # frame.place(relx=0.5, rely=0.1, relwidth=0.75, relheight=0.8, anchor='n')
-        # frame.attributes("-alpha", 0.5)
 
         # Adiciona um label ao frame
         self.string_var = StringVar()
@@ -115,6 +116,7 @@ class App:
         args = ['python', 'main.py', '--cnpj', f'{self.string_var.get()}', '--mes', f'{self.mes.get()}', '--ano', f'{self.ano.get()}']
         self.thread = ThreadedTask(self.task_finished, args)
         self.thread.start()
+        self.thread.join()
 
     def task_finished(self):
         self.button["state"] = "normal"

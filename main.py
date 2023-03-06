@@ -12,9 +12,9 @@ from relatorio.report import RelatorioPeriodo
 ##--ARGPARSE
 parser = argparse.ArgumentParser()
 parser.add_argument("--code", nargs='?')
-parser.add_argument("--cnpj", nargs='?')
-parser.add_argument("--mes", nargs='?')
-parser.add_argument("--ano", nargs='?')
+parser.add_argument("--cnpj", type=int, nargs='?')
+parser.add_argument("--mes", type=int, nargs='?')
+parser.add_argument("--ano", type=int, nargs='?')
 
 args = parser.parse_args()
 
@@ -22,12 +22,12 @@ if args.cnpj is not None:
     DB = Connect()
     sql = f"SELECT cod_maquinetas ->> 'stone' FROM public.companies WHERE cnpj = '{args.cnpj}'"
     result = DB.execute(sql)
-
+print(args.code and args.cnpj is None)
 ##-- SET Initial Configs
-date = datetime(2023, 1, 1) if not args.code or not args.cnpj else datetime(args.mes, args.ano, 1)
+date = datetime(2023, 2, 1) if (args.code or args.cnpj is None) else datetime(args.ano, args.mes, 1)
 end_date = date.replace(day=calendar.monthrange(date.year, date.month )[1])
 end_date = datetime.now() if not end_date.day > datetime.now().day else end_date
-code = 880853854 if not args.code else result
+code = 880853854 if args.code or args.cnpj is None else result
 
 locale.setlocale(locale.LC_ALL, 'pt_BR.utf8')
 api = FetchApi(code, date, end_date)

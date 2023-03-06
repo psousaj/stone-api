@@ -50,6 +50,9 @@ class Connect:
         cursor.execute(sql)
 
         result = cursor.fetchone()[0]
+
+        cursor.close()
+        self.con.close()
         return result
 
     def get_db(self, sql):
@@ -61,7 +64,6 @@ class Connect:
         Returns:
            - {df.DataFrame}: Retorna um DataFrame Pandas
         """
-        con = psycopg2.connect(host="192.168.1.54", user="postgres",
-                               password="1234", database='DataBaseTax')
+        con = self.con
         df = pd.read_sql(f"{sql}", con=con)
         return df
